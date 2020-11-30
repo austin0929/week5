@@ -1,0 +1,101 @@
+.list-bar {
+  min-width: 296px;
+}
+
+.logo a {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 40px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+
+.logo a:hover {
+  border: none;
+}
+
+.list-bar .list-main li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.list-bar .list-main i {
+  width: 20px;
+  height: 20px;
+}
+
+.list-main a {
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  display: block;
+}
+
+.list-main a:hover {
+  text-decoration: none;
+  color: #2A8356;
+  border-left: 4px solid #2A8356;
+}
+
+.andy-pic {
+  position: absolute;
+  bottom: 32px;
+}
+
+.andy-pic img {
+  vertical-align: middle;
+  margin-right: 16px;
+}
+
+.layout-container {
+  min-width: 1280px;
+}
+
+.bg-main {
+  background-color: #EDF4EE;
+}
+
+.text-main {
+  color: #2A8356;
+}
+
+.card-header {
+  position: relative;
+}
+
+.card-header .card-header-more {
+  position: absolute;
+  right: 20px;
+  top: 13px;
+  color: gray;
+}
+
+.card-header a:hover {
+  color: #2A8356;
+  text-decoration: none;
+}
+
+.card-icon {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+.card-btn1 {
+  color: #2A8356;
+  border: 1px solid #2A8356;
+}
+
+.card-btn1:hover {
+  background-color: #EDF4EE;
+}
+
+.card-btn2 {
+  color: #EDF4EE;
+  background-color: #2A8356;
+}
+/*# sourceMappingURL=all.css.map */

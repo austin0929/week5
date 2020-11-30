@@ -1,0 +1,32 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+.layout-container{
+    min-width: 1280px;
+}
+.bg-main{
+    background-color: #EDF4EE;
+}
+.text-main{
+    color: #2A8356;
+}
+a{
+    text-decoration: none !important;
+    color: black;
+}
+.page-item{
+    border:1px solid  #2A8356;
+}
+.pagination li a:hover{
+    background-color: #2A8356;
+    color: white;
+}
+table a:hover{
+    color: #2A8356;
+}
+.table tbody tr:hover{
+    background-color:  #EDF4EE;
+}
+.table tr{
+    height: 60px;
+}

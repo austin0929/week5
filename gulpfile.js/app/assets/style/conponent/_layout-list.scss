@@ -1,0 +1,50 @@
+.list-bar{
+    min-width: 296px;
+}
+.logo a{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 40px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+.logo a:hover{
+    border: none;
+}
+.list-bar{
+    .list-main{
+        li{
+            list-style: none;
+            margin-bottom: 30px;
+        }
+        i{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+.list-main{
+            a{
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    display: block;
+}
+a:hover{
+    text-decoration: none;
+    color: #2A8356;
+    border-left: 4px solid #2A8356;
+}
+}
+.andy-pic{
+    position: absolute;
+    bottom: 32px;
+    img{
+        vertical-align: middle;
+        margin-right: 16px;
+    }
+}

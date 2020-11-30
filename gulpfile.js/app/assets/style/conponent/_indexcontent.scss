@@ -1,0 +1,39 @@
+.card-header{
+    position: relative;
+}
+.card-header ul li{
+    list-style: none;
+}
+.card-header .card-header-more{
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    color: gray;
+}
+.card-header a:hover{
+    color: #2A8356;
+    text-decoration: none;
+}
+.card-icon{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+.card-btn1{
+    color: #2A8356;
+    border: 1px solid #2A8356;
+}
+.card-btn1:hover{
+    background-color: #EDF4EE;
+}
+.card-btn2{
+    color: #EDF4EE;
+    background-color: #2A8356;
+}
+.dropdown-btn button:hover{
+    background-color: #EDF4EE;
+}
+textarea{
+    border: 1px solid lightgray;
+    width: 95%;
+}
